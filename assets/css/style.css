@@ -1,0 +1,11 @@
+body{
+    background-image: -webkit-linear-gradient(270deg,#ecebeb 0%,rgba(247,247,247,1.00) 100%);
+	background-image: -moz-linear-gradient(270deg,#ecebeb 0%,rgba(247,247,247,1.00) 100%);
+	background-image: -o-linear-gradient(270deg,#ecebeb 0%,rgba(247,247,247,1.00) 100%);
+	background-image: linear-gradient(180deg,#ecebeb 0%,rgba(247,247,247,1.00) 100%);
+}
+
+.card{
+    margin-top: 50px;
+    height: 200px;
+}

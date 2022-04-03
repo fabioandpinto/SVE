@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REGISTRO DE SEGUIMIENTO COVID 19</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+</head>
+
+<body>
+<div class="container" style="padding: 150px;">
+    
+    <form name="frmmodulo1" id="frmmodulo1" action="" method="post" class="">
+        <input type="checkbox" name="autorizacion" id="" required>
+        ¿Autoriza la política de tratamiento de datos según la LEY 1581 DE 2012? 
+        <br>
+        <label for="motivo" class="form-label"> MOTIVO DE SEGUIMIENTO O ASESORÍA</label>
+        <textarea name="motivo" id="" cols="10" rows="4" class="form-control" required> </textarea>
+        <br>
+        <label for="tlfadicional" class="form-label"> TELÉFONO/CELULAR ADICIONAL</label>
+        <input type="number" name="tlfadicional" id="" class="form-control" required> 
+        <br>
+        <label for="email" class="form-label"> CORREO PERSONAL</label>
+        <input type="email" name="email" id="" class="form-control" required> 
+        <br>
+        <label for="informante" class="form-label"> INFORMANTE </label>
+        <select name="informante" id="" class="form-control" required>
+            <option value="1"> el mismo paciente </option>
+            <option value="2"> padre </option>
+            <option value="3"> madre </option>
+            <option value="4"> hermano(a) </option>
+            <option value="5"> cónyuge </option>
+            <option value="6"> otro </option>
+        </select>
+        <br>
+        <label for="nombreinformante" class="form-label"> NOMBRE DEL INFORMANTE </label>
+        <input type="text" name="nombreinformante" id="" class="form-control"required>
+        <br>
+        <label for="telinformante" class="form-label"> TELEFONO DEL INFORMANTE </label>
+        <input type="number" name="telinformante" id="" class="form-control"required>
+        <br>
+        <label for="subgrupo" class="form-label"> CLASIFICACIÓN SEGÚN SUBGRUPO </label>
+        <select name="subgrupo" required id="" class="form-control"></select>
+        <br>
+        <label for="modalidad" class="form-label"> MODALIDAD EN QUE DESARROLLA SUS ACTIVIDADES </label>
+        <select name="modalidad" required id="" class="form-control">
+            <option value="1"> Presencial </option>
+            <option value="2"> Presencial y remota </option>
+            <option value="3"> De manera remota únicamente </option>
+        </select>
+        <br>
+        <label for="pais" class="form-label"> PAÍS EN QUE SE ENCUENTRA </label>
+        <select name="pais" required id="" class="form-control">
+
+        </select>
+        <br>
+        <label for="departamento" class="form-label"> DEPARTAMENTO EN DONDE SE ENCUENTRA ACTUALMENTE </label>
+        <select name="departamento" required id="" class="form-control">
+
+        </select>
+        <br>
+        <label for="ciudad" class="form-label"> CIUDAD EN DONDE SE ENCUENTRA ACTUALMENTE </label>
+        <select name="ciudad" required id="" class="form-control">
+
+        </select>
+        <br>
+        <label for="barrio" class="form-label"> BARRIO DE RESIDENCIA ACTUAL </label>
+        <input type="text" name="barrio" id="" class="form-control"required>
+        <br>
+        <label for="direccion" class="form-label"> DIRECCION DE RESIDENCIA ACTUAL </label>
+        <input type="text" name="direccion" id="" class="form-control"required>
+        <br>
+        <label for="zona" class="form-label"> VIVE EN ZONA </label>
+        <select name="zona" required id="" class="form-control">
+            <option value="1"> Subsidiado </option>
+            <option value="2"> Sisben </option>
+            <option value="3"> Contributivo </option>
+            <option value="4"> Excepción </option>
+        </select>
+        <br>
+        <label for="eps" class="form-label"> VIVE EN ZONA </label>
+        <select name="eps" required id="" class="form-control">
+            <option value="1"> Rural </option>
+            <option value="2"> Urbana </option>
+        </select>
+        <br>
+        <label for="jornada" class="form-label"> VIVE EN ZONA </label>
+        <select name="jornada" required id="" class="form-control">
+            <option value="1"> Rural </option>
+            <option value="2"> Urbana </option>
+        </select>
+        <br>
+        <label for="jornada" class="form-label"> JORNADA EN QUE DESARROLLA SUS ACTIVIDADES </label>
+        <select name="jornada" required id="" class="form-control">
+            <option value="1"> Diurna </option>
+            <option value="2"> Nocturna </option>
+            <option value="3"> Mixta </option>
+            <option value="4"> Por turnos </option>
+        </select>
+        <br>
+        <label for="nombreemergencia" class="form-label"> NOMBRE COMPLETO CONTACTO DE EMERGENCIA </label>
+        <input type="text" name="nombreemergencia" id="" class="form-control"required>
+        <br>
+        <label for="parentescoemergencia" class="form-label"> PARENTESTO DE CONTACTO DE EMERGENCIA </label>
+        <input type="text" name="parentescoemergencia" id="" class="form-control"required>
+        <br>
+        <label for="telefonoemergencia" class="form-label"> CELULAR/TELEFONO DE CONTACTO DE EMERGENCIA </label>
+        <input type="text" name="telefonoemergencia" id="" class="form-control"required>
+        <br>
+        <label for="vacunado" class="form-label"> ¿LE HAN APLICADO VACUNA ANTI COVID-19? </label>
+        <select name="vacunado" required id="" class="form-control">
+            <option value="1"> Si </option>
+            <option value="2"> No </option>
+        </select>
+        <br>
+        <label for="certificado" class="form-label">SOPORTE ADJUNTO / CAPTURA PANTALLA REGISTRO EN APLICACIÓN CoronApp-Colombia </label>
+        <input type="file" name="certificaod" id="">
+        <br>
+        <br>
+        <input type="submit" href="" class="btn btn-success" value="GUARDAR">
+        <a href="seguimiento.html" class="btn btn-primary"> REGRESAR </a>
+    </form>
+
+</div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

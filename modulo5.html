@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REGISTRO DE SEGUIMIENTO COVID 19</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+</head>
+
+<body>
+<div class="container" style="padding: 150px;"> 
+    <form name="frmmodulo4" id="frmmodulo4" action="" method="post" class="">
+        <label for="registroNexo" class="form-label"> FECHA DE REGISTRO </label>
+        <input type="date" name="registroNexo" id="" class="form-control">
+        <br>
+        <label for="tipoExamen" class="form-label"> TIPO DE PRUEBA/EXAMEN </label>
+        <select name="tipoExamen" id="" class="form-control">
+            <option value="1"> PCR PARA SARS-CoV2 (REACCIÓN EN CADENA DE LA POLIMERASA)</option>
+            <option value="2"> ANTÍGENO PARA SARS-CoV2</option>
+            <option value="2"> Otra</option>
+        </select>
+        <br>
+        <label for="fechaExamen"> FECHA DE TOMA DE LA MUESTRA (DD/MM/AAAA)</label>
+        <input type="date" name="fechaExamen" id="" class="form-control">
+        <br>
+        <label for="motivoExamen"  class="form-label" > MOTIVO DE TOMA DE LA PRUEBA	
+        </label>
+        <select name="motivoExamen" id="" class="form-control">
+            <option value="1"> ORDEN DE EPS </option>
+            <option value="2"> ORDEN DE ARL </option>
+            <option value="3"> ORDEN DE INSTITUCIÓN EN LA QUE ESTUDIA/HACE PRÁCTICAS/LABORA </option>
+            <option value="4"> INICIATIVA PROPIA </option>
+        </select>
+        <br>
+        <label for="fechaResultadoExamen"> FECHA DE EMISIÓN DE RESULTADO POR EL LABORATORIO TOMADOR DE DICHA PRUEBA	
+        </label>
+        <input type="date" name="fechaResultadoExamen" id="" class="form-control">
+        <br>
+        <label for="tipoExamen"  class="form-label"> TIPO DE RESULTADO	
+        </label>
+        <select name="tipoExamen" id="" class="form-control">
+            <option value="1"> NEGATIVO </option>
+            <option value="2"> POSITIVO </option>
+            <option value="3"> MUESTRA INSUFICIENTE </option>
+            <option value="4"> OTRA </option>
+        </select>
+        <br>
+        <label for="medioExamen" class="form-label"> MEDIO POR EL CUAL EL PACIENTE RECIBIÓ LA ATENCIÓN DE DICHA CITA/CONSULTA/DIRECTRIZ </label>
+        <input type="text" class="form-control">
+        <br>
+        <label for="cantidadExamen" class="form-label"> CANTIDAD DE PRUEBAS TOMADAS/REGISTRADAS </label>
+        <input type="number" name="cantidadExamen" class="form-control">
+        <br>
+        <label for="soporteExamen" class="form-label" >SOPORTE ADJUNTO DE EXAMEN / OBSERVACIONES
+        </label>
+        <input type="file" name="soporteExamen" class="form-control" id="">
+
+
+    </form>
+</div>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
